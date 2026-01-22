@@ -102,9 +102,6 @@ export const ContactSection = () => {
                 <a href="#" target="_blank">
                   <Instagram />
                 </a>
-                <a href="#" target="_blank">
-                  <Twitch />
-                </a>
               </div>
             </div>
           </div>

@@ -30,7 +30,7 @@ export const AboutMe = () => {
               </a>
 
               <a
-                href="#" target="_blank"
+                href="https://drive.google.com/file/d/1ripigLvO6IzOyAXxdRdNpU2phrQvC9GI/view?usp=drive_link" target="_blank"
                 className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300"
               >
                 Download CV

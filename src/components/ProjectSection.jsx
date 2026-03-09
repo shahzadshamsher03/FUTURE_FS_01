@@ -4,33 +4,52 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react";
 const projects = [
   {
     id: 1,
-    title: "WorthyWaste",
-    description: "Reduce, reuse, recycle — powered by technology..",
-    image: "/projects/project1.png",
-    tags: ["React", "CSS", "JavaScript","MongoDb"],
+    title: "Codeify – AI Powered Code Review Tool",
+    description: "Built an AI-powered code review tool that analyzes code and provides ratings, bug detection, and improvement suggestions.",
+    image: "/projects/project5.png",
+    tags: ["React.js", "Vite"," Tailwind CSS", "Monaco Editor"," Google Gemini API"],
     demoUrl: "#",
-    githubUrl: "#",
+    githubUrl: "https://github.com/shahzadshamsher03/Codeify-AI-Powered-Code-Review-Tool.git",
+  },
+   {
+    id: 2,
+    title: "ShopSphere – Full Stack E-Commerce Platform",
+    description: " Developed a full-stack e-commerce platform for product browsing, cart and address management, and online order placement.",
+    image: "/projects/project4.png",
+    tags: ["React.js", "Redux Toolkit", "Node.js", "Express.js", "MongoDB", "Razorpay"],
+    demoUrl: "#",
+    githubUrl: "https://github.com/shahzadshamsher03/ShopSphere-Full-Stack-E-Commerce-Platform.git",
   },
   {
-    id: 2,
+    id: 3,
+    title: "MindMate– Mental Wellness Web Application",
+    description: " Developed a mental wellness web app with AI chatbot support, mood tracking, and wellness tools.",
+    image: "/projects/project6.png",
+    tags: ["React.js", "Tailwind CSS", "JavaScript", "MongoDb"],
+    demoUrl: "#",
+    githubUrl: "https://github.com/shahzadshamsher03/Mindmate.git",
+  },
+  {
+    id: 4,
     title: "Taskify",
     description:
       "A fast and responsive ToDo app built for everyday productivity.",
     image: "/projects/project2.png",
-    tags: ["React", "TailwindCSS", "HTML","JavaScript"],
+    tags: ["React", "TailwindCSS", "HTML", "JavaScript"],
     demoUrl: "#",
-    githubUrl: "#",
+    githubUrl: "https://github.com/shahzadshamsher03/Taskify.git",
   },
   {
-    id: 3,
+    id: 5,
     title: "Weather App",
     description:
       "A weather app using live APIs to display temperature, humidity, and wind speed.",
     image: "/projects/project3.png",
-    tags: ["React", "HTML", "CSS","JavaScript","REST APIs"],
+    tags: ["React", "HTML", "CSS", "JavaScript", "REST APIs"],
     demoUrl: "#",
-    githubUrl: "#",
+    githubUrl: "https://github.com/shahzadshamsher03/weatherapp.git",
   },
+
 ];
 
 export const ProjectsSection = () => {
@@ -63,7 +82,7 @@ export const ProjectsSection = () => {
 
               <div className="p-6">
                 <div className="flex flex-wrap gap-2 mb-4">
-                  {project.tags.map((tag,key) => (
+                  {project.tags.map((tag, key) => (
                     <span key={key} className="px-2 py-1 text-xs font-medium border rounded-full bg-secondary text-secondary-foreground">
                       {tag}
                     </span>
